@@ -22,6 +22,13 @@ sudo mv url /usr/bin
 cd ..
 rm -rf Mask_URL
 ```
+## ▶️ Run
+Now run this Command.
+```
+url
+```
+Use `sudo rm /usr/bin/url` For remove.
+
 ## Example Workflow
 ```
 ==== Custom Mask URL Generator ====
