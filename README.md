@@ -15,11 +15,15 @@ This tool is useful for **ethical hacking** and **cybersecurity research**, part
 
 ## Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/mask-url-generator.git
-cd mask-url-generator
-chmod +x mask-url-generator.sh
+git clone https://github.com/Andro-Spy/Mask_URL.git
+cd Mask_URL
+chmod +x url
+sudo mv url /usr/bin
+cd ..
+rm -rf Mask_URL
 ```
 ## Example Workflow
+```
 ==== Custom Mask URL Generator ====
 Enter the target URL: example.com
 ⚠️ URL doesn't contain http/https.
@@ -39,8 +43,8 @@ Choose mask domain:
 4) twitter.com
 5) custom domain
 Enter choice [1-5]: 1
-Enter social engineering words (e.g., free-gift): free-gift
-
+Enter social engineering words (e.g., free-gift): video
+```
 ✅ Final Masked URL:
 `https://facebook.com-video@is.gd/abcd`
 
